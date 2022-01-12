@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.swift_version = "5.0"
   s.default_subspec = "Core"
-  s.dependency = "CombineExt"
+  s.dependency "CombineExt"
 
   s.subspec "Core" do |ss|
     ss.source_files = "CombineReactor/CombineReactor/Core/**/*.swift"
